@@ -89,7 +89,7 @@ export default function Home() {
 
       await queryClient.invalidateQueries();
     },
-    []
+    [queryClient]
   );
 
   return (
